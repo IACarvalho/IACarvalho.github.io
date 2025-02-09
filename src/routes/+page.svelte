@@ -1,4 +1,5 @@
 <script lang="ts">
+	let langauge = 'portuguese';
 </script>
 
 <svelte:head>
@@ -6,7 +7,12 @@
 	<meta name="description" content="portifolium home page" />
 </svelte:head>
 
-<section></section>
+<section>
+	<div>
+		<div class="photo"></div>
+		<div class="text"></div>
+	</div>
+</section>
 
 <style>
 	section {
